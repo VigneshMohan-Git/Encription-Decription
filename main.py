@@ -6,17 +6,17 @@ from Cryptodome.PublicKey import RSA
 from Cryptodome.Cipher import PKCS1_OAEP
 from pathlib import Path
 
-path_to_key = '/home/mclen/dex/sql_files/'
-key_savepath = '/home/mclen/dex/sql_files/'
+path_to_key = '/home/folder/'
+key_savepath = '/home/folder/'
 #generate_new_key_pair(path_to_key)
 
-private_key = '/home/mclen/dex/sql_files/private.pem'
-public_key = '/home/mclen/dex/sql_files/public.pem'
+private_key = '/home/folder/private.pem'
+public_key = '/home/folder/public.pem'
 
-unencrypted_file = '/home/mclen/dex/sql_files/DBData.csv'
-encrypted_file_path = "/home/mclen/dex/sql_files/DBData_encrypted"
-src = "/home/mclen/dex/sql_files/DBData_encrypted"
-dec = "/home/mclen/dex/sql_files/DBData_encrypted"
+unencrypted_file = '/home/folder/DBData.csv'
+encrypted_file_path = "/home/folder/DBData_encrypted"
+src = "/home/folder/DBData_encrypted"
+dec = "/home/folder/DBData_encrypted"
 
 # -- Encrytion
 filename = path_leaf(unencrypted_file)
